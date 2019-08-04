@@ -11,7 +11,7 @@ base = {0: "",
         8: "eight",
         9: "nine"}
 
-mult_10 = {1: "ten", 2: "twenty", 3: "thirty", 4: "fourty",
+mult_10 = {1: "ten", 2: "twenty", 3: "thirty", 4: "forty",
            5: "fifty", 6: "sixty", 7: "seventy", 8: "eighty",
            9: "ninety"}
 
@@ -71,7 +71,11 @@ for i in range(10,20):
     pv(i)
 
 # less that 100
+for i in range(20, 100):
+    pv(i)
 
 count = 0
 for i in range(1001):
     count += len(to_english(i))
+
+print(count)
